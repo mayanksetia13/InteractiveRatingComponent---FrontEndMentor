@@ -1,0 +1,124 @@
+html {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+    background-color: hsl(222, 69%, 93%);
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Red-Hat Display', sans-serif;
+    
+}
+
+.main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 340px;
+    height: 500px;
+}
+
+.main-img {
+    position: relative;
+    bottom: 47px;
+    width: 340px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.main-header {
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.card-section {
+    background-color: hsl(223, 100%, 98%);
+    border-radius: 5px;
+    padding: 2px 10px 10px;
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.card-para {
+    font-size: 12px;
+    line-height: 1.5em;
+    padding: 7px 37px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-img {
+    float: left;
+    height: 34px;
+    margin-top: 10px;
+}
+
+.second-header {
+    
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.item-first {
+    list-style-type: none;
+    font-size: 12px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+
+.item-second {
+    list-style-type: none;
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+    padding-left: 8px;
+    font-weight: 200;
+}
+
+span {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-size: 10px;
+    position: relative;
+    left: 130px;
+    bottom: 25px;
+}
+
+.pay-btn {
+    font-family: 'Red-Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 14px 70px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 20px;
+    box-shadow: 0px 8px 4px 1px rgba(0, 0, 255, .2);
+}
+
+.cancel-btn {
+    font-family: 'Red-Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    border-style : none;
+    padding: 14px 70px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+
